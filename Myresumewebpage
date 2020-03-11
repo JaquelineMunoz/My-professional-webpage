@@ -1,1 +1,157 @@
+<!DOCTYPE html>
+<html>
 
+  <head>
+    <!-- <link type="text/css" rel="stylesheet" href="stylesheet.css" /> -->
+    <style type="text/css">
+      body {
+        /* Typography Declarations */
+        color: #222222;
+        font-size: 1em;
+        font-family: "Open Sans", "Helvetica Neue", sans-serif;
+      }
+
+      .content-footer,
+      .masthead-heading,
+      .masthead-intro {
+        text-align: center;
+      }
+
+      .masthead {
+        padding: 6em 0;
+        background-image: url('https://i.imgur.com/0TC8m6h.jpg');
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-top: solid 1em #FFCF33;
+      }
+
+      .masthead-intro {
+        margin-bottom: 0.1em;
+        font-family: "Gentium Book Basic", Georgia, serif;
+        font-size: 2em;
+      }
+
+      .masthead-heading {
+        color: #F1C863;
+        margin-top: -0.2em;
+        font-family: "Open Sans", "Helvetica Neue", sans-serif;
+        font-weight: bold;
+        font-size: 6em;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+      }
+
+      .introduction-section,
+      .location-section,
+      .questions-section {
+        max-width: 38em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2em;
+      }
+
+      .introduction-section>p,
+      .location-section>p,
+      .questions-section,
+      .content-footer>p {
+        /* Typography Declarations */
+        font-weight: 300;
+        letter-spacing: 0.05em;
+      }
+
+      h2 {
+        /* Typography Declarations */
+        font-family: "Gentium Book Basic", Georgia, serif;
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+
+      .questions-section>h2 {
+        font-family: "Gentium Book Basic", Georgia, serif;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 2em 0 1em 0;
+      }
+
+      section>h1 {
+        margin-top: 2em;
+      }
+
+      .introduction>p,
+      .location>p,
+      .content-footer>p {
+        /* Typography Declarations */
+        font-weight: 300;
+        letter-spacing: 0.05em;
+      }
+
+
+      .content-footer {
+        margin: 50px 0;
+        padding: 20px 0;
+        text-align: center;
+        background-color: #73A8C2;
+        text-decoration: none;
+      }
+
+      .social>li {
+        display: inline-block;
+        margin: 0 5px;
+      }
+
+      .content-footer>p {
+        color: #F7EDE1;
+      }
+
+      a {
+        font-weight: bold;
+        text-decoration: none;
+        color: #F1C863;
+      }
+      }
+
+    </style>
+    <title></title>
+  </head>
+
+  <body>
+    <header class='masthead'>
+      <p class='masthead-intro'>Hi I'm</p>
+      <h1 class='masthead-heading'>Jaqueline!</h1>
+    </header>
+    <section class="introduction-section">
+      <h1>Introduction</h1>
+      <p>Experienced communications professional seeking to contribute eﬀective marketing and communication solutions to achieve outstanding business results. 
+.</p>
+      <p>I'm fascinated by innovation, technology and people.</p>
+    </section>
+    <section class="location-section">
+      <h1>Where I'm From</h1>
+      <p>I'm originally from Russia, but I've lived in Isreal, The Netherlands and now Spain is my home. </p>
+    </section>
+    <section class="questions-section">
+      <h1>More About Me</h1>
+      <h2>What are your favorite hobbies?</h2>
+      <p>My favorite hobby is to fix stuff. I use Google + YouTube + screwdriver to fix almost everything that gets broken in my house or in my friends houses.</p>
+      <h2>What's your favorite part of your job?</h2>
+      <p>My favorite part of my job is my team. Especially my team lead, that is very intelligent and inspiring and I learn a lot from her every day.</p>
+      <h2>Where do you live?</h2>
+      <p>I live on the other side of Tibidabo mountain.</p>
+      <h2>Why did you choose to become a software developer?</h2>
+      <p>Because programming is awesome! Plus, techinical careers allow great flexibility and I love how everytihg that you do has an immidiate impact and you can see the result.</p>
+    </section>
+
+    <footer class="content-footer">
+      <p>Say Hi to me via:</p>
+      <ul class="social">
+        <li><a class="css-is-deranged" href="mailto:tatiana.gottlib@dynatrace.com">Email</a></li>
+        <li><a class="css-is-deranged" href="https://www.linkedin.com/in/tatiana-gottlib-profile/">LinkedIn</a></li>
+        <li><a class="css-is-deranged" href="https://wa.me/34671174200">WhatsApp</a></li>
+      </ul>
+
+    </footer>
+  </body>
+
+</html>
