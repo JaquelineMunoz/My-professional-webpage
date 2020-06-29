@@ -1,153 +1,310 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <!-- <link type="text/css" rel="stylesheet" href="stylesheet.css" /> -->
-    <style type="text/css">
-      body {
-        /* Typography Declarations */
-        color: #222222;
-        font-size: 1em;
-        font-family: "Open Sans", "Helvetica Neue", sans-serif;
-      }
+<head>
+  <title>Jaqueline Muñoz</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=PT+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
+  <style type="text/css">
 
-      .content-footer,
-      .masthead-heading,
-      .masthead-intro {
-        text-align: center;
-      }
-
-      .masthead {
-        padding: 6em 0;
-        background-image: url('https://i.imgur.com/0TC8m6h.jpg');
-        background-repeat: no-repeat;
-        background-size: auto 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        border-top: solid 1em #FFCF33;
-      }
-
-      .masthead-intro {
-        margin-bottom: 0.1em;
-        font-family: "Gentium Book Basic", Georgia, serif;
-        font-size: 2em;
-      }
-
-      .masthead-heading {
-        color: #F1C863;
-        margin-top: -0.2em;
-        font-family: "Open Sans", "Helvetica Neue", sans-serif;
-        font-weight: bold;
-        font-size: 6em;
-        letter-spacing: -0.02em;
-        text-transform: uppercase;
-      }
-
-      .introduction-section,
-      .location-section,
-      .questions-section {
-        max-width: 38em;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 2em;
-      }
-
-      .introduction-section>p,
-      .location-section>p,
-      .questions-section,
-      .content-footer>p {
-        /* Typography Declarations */
-        font-weight: 300;
-        letter-spacing: 0.05em;
-      }
-
-      h2 {
-        /* Typography Declarations */
-        font-family: "Gentium Book Basic", Georgia, serif;
-        font-size: 1.2em;
-        font-weight: bold;
-      }
-
-      .questions-section>h2 {
-        font-family: "Gentium Book Basic", Georgia, serif;
-        font-size: 1.2em;
-        font-weight: bold;
-        margin: 2em 0 1em 0;
-      }
-
-      section>h1 {
-        margin-top: 2em;
-      }
-
-      .introduction>p,
-      .location>p,
-      .content-footer>p {
-        /* Typography Declarations */
-        font-weight: 300;
-        letter-spacing: 0.05em;
-      }
+    body {
+      /* Typography Declarations */
+      color: #222222;
+      font-size: 1em;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+    }
 
 
-      .content-footer {
-        margin: 50px 0;
-        padding: 20px 0;
-        text-align: center;
-        background-color: #73A8C2;
-        text-decoration: none;
-      }
+    .content-footer,
+    .header-heading,
+    .header-intro,
+    .header-description,
+    .header-quote
+    .icons{
+      text-align: right;
+    }
 
-      .social>li {
-        display: inline-block;
-        margin: 0 5px;
-      }
+    .header {
+      display: flex;
+      padding: 10em 0em;
+      border-top: solid 1em #f1c90f;
+      justify-content: center;
+    }
 
-      .content-footer>p {
-        color: #F7EDE1;
-      }
+    .header-text{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      flex: 50%;
+      padding-left: 10em;
 
-      a {
-        font-weight: bold;
-        text-decoration: none;
-        color: #F1C863;
-      }
-      }
 
-    </style>
-    <title></title>
-  </head>
 
-  <body>
-    <header class='masthead'>
-      <p class='masthead-intro'>Hi I'm</p>
-      <h1 class='masthead-heading'>Jaqueline!</h1>
-    </header>
-    <section class="introduction-section">
-      <h1>Introduction</h1>
-      <p>Experienced communications professional seeking to contribute eﬀective marketing and communication solutions to achieve outstanding business results. 
-.</p>
-      <p>I'm fascinated by innovation, technology and people.</p>
-    </section>
-    <section class="location-section">
-      <h1>Where I'm From</h1>
-      <p>I'm originally from Mexico, but I've lived in Berlin for 9 months and now Spain is my home. </p>
-    </section>
-    <section class="questions-section">
-      <h1>Experience</h1>
-      <h2>Academy Program Coordinator - Wizeline Company.</h2>
-      <p> Building and coordinating courses in México,USA, and Vietnam about Software Development, User Experience, Management and more to attract talent and develop the careers of our employees.
-      <h2>Media Training Designer - Intel Corporation</h2>
-      <p>Collaborating with customers to identify communications and trainings needs, propose and build solutions</p>
-    </section>
+    }
 
-    <footer class="content-footer">
-      <p>Say Hi to me via:</p>
-      <ul class="social">
-        <li><a class="css-is-deranged" href="mailto:munozrodriguezjaqueline@gmail.com">Email</a></li>
-        <li><a class="css-is-deranged" href="https://www.linkedin.com/in/jaquelinemunoz/">LinkedIn</a></li>
-        <li><a class="css-is-deranged" href="https://wa.me/491794177065">WhatsApp</a></li>
+    .header-picture {
+      flex: 50%;
+      justify-content: center;
+      display: flex;
+    }
+
+
+    .header-intro {
+      margin: 0;
+      align-content: right;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2em;
+    }
+
+    .header-heading {
+      margin: 0;
+      color: #f1c90f;
+      align-content: right;
+      font-family: 'Playfair Display', serif;
+      letter-spacing:2px; 
+      font-size: 3.5em;
+      margin-bottom: 10px;
+
+    }
+
+    .header-description {
+      margin: 0;
+      align-content: right;
+      text-align: right;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1em;
+      letter-spacing: -0.02em;
+      line-height: 1.8;
+    }
+
+
+
+    .header-quote{
+      margin: 0;
+      align-content: right;
+      text-align: right;
+      font-family: 'Montserrat', sans-serif;
+      font-style: italic;
+      font-size: 1em;
+      letter-spacing: -0.02em;
+      line-height: 1.8;
+    }
+
+
+    .education-section,
+    .experience-section {
+      max-width: 38em;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2em;
+    }
+
+    .education-section>p,
+    .experience-section,
+    .content-footer>p
+    .skills-section {
+      /* Typography Declarations */
+      font-weight:300;
+      letter-spacing: 0.05em;
+
+    }
+
+
+  }
+  h2 {
+    /* Typography Declarations */
+    font-family: 'Playfair Display', serif;
+    font-size: 1.0em;
+    font-weight:bold;
+
+  } 
+
+  h3 {
+    /* Typography Declarations */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.0em;
+    font-weight: bold;
+  }
+
+  h4 { 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    line-height: 140%;
+    font-weight: lighter;
+  }
+
+
+
+  .experience-section>h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 2em 0 1em 0;
+  }
+
+  section>h1 {
+    margin-top: 2em;
+  }
+
+  .experience>p,
+  .education>p,
+  .content-footer>p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+
+  }
+
+
+  .content-footer {
+    margin:500px 0;
+    padding: 20px 0;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: #9c63f1;
+    text-decoration: none;
+
+  }
+
+}
+
+.social>li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.content-footer>p {
+  color: #F7EDE1;
+}
+
+a{
+  font-weight: bold;
+  text-decoration: none;
+  color:black;
+  text-decoration:underline;
+  text-decoration-color:#9c63f1;
+
+}
+}
+</style>
+
+
+
+<!-- Columns -->
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .column {
+    flex: 50%;
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+</style>
+
+
+<!-- Icons -->
+
+<style>
+
+  .material-icons{
+   display: flex;
+   margin-top: 25px;
+   margin-right: 30px;
+
+ }
+</style>
+</head>
+<body>
+  <header class='header'>
+    <div class="header-text">
+      <p class='header-intro'>Hi I'm</p>
+      <h1 class='header-heading'>Jaqueline!</h1>
+      <h1 class="header-description">Barcelona Based Communications Professional, 
+      Originally from the West of Mexico with Eligibility to Work in Spain</h1>
+      <p class="header-quote"> "I'm passionate about the continuous digital transformation in our daily live and how the employ of technology in social sciences has an extremely vital role to play".</p>
+    </div>
+    <div class="header-picture">
+      <img src="https://i.imgur.com/0TC8m6h.jpg" alt="Jaqueline's portrait" width="300" height="300">
+    </div>
+  </header>
+  <div class="row">
+    <div class="column" style="background-color:#white">
+      <div class="row">
+        <i class="material-icons">work_outline</i> 
+        <h2>Experience</h2>
+      </div>
+      <a href="https://www.wizeline.com/">
+        <p>Academy Program Coordinator - Wizeline Company</p>
+      </a>
+      <h3>2018 - 2019</h3>
+      <p> Building and coordinating courses in Mexico, USA and Vietnam about Software Development, User Experience, Management and more to attract talent and develop the careers of our employees.
+        <h4><li>Collaborate cross-functionally with Managers, Software Engineers, Technical Writers and Recruiters to cover staffing needs with the right talent at the right time
+        </h4></li>
+        <h4><li>Working together with (Data, Android, iOS and QA) Engineers to launch courses on the most popular programming languages and frameworks
+        </h4></li>
+        <h4><li>Creating content to promote the courses on social media platforms, keep track of the posts, and report the results on a bi-weekly basis
+        </h4></li>
+
+
+      </p>
+
+      <a href="https://www.intel.es/content/www/es/es/homepage.html">
+        <p>Media Training Designer - Intel Corporation</p>
+      </a>
+      <h3> 2015 - 2018 </h3>
+      <p> While I was on the fifth semester of my bachelor’s degree, I started an internship at Intel Company, where being in contact with hardware and software innovations were part of my daily work.</p>
+      <p>I used to work together with managers and experts to develop training programs mostly about Electric Validation, Programming Languages and work practices, all of this with highly impact helping to onboard Engineers joining the company or teaching an entire division on the use of a software/hardware tool just released.</p>
+    </div>
+    <div class="column" style="background-color:#white;">
+
+
+      <div class="row">
+        <i class="material-icons">school</i><h2>Education</h2>
+      </div>
+      <a href="https://www.iteso.mx/web/iteso/acerca-de-iteso-original"><p>ITESO University, Mexico</p></a>
+      <h3>2013 - 2018 </h3>
+      <p>Mass Communications, Bachelor's Degree</p>
+
+      <div class="row">
+        <i class="material-icons">design_services</i>
+        <h2>Skills</h2>
+      </div>
+      <ul>
+        <h4><li> Quick Undestanding of Complex Tools and Technologies</li></h4>
+        <h4><li> Effectively Prioritize Tasks</li></h4>
+        <h4><li>Strong Analytical Skills</li></h4>
+        <h4><li> Experience with Agile Methodology</li></h4>
+        <h4><li>Ability to Work Autonomously and within a Team</li></h4>
       </ul>
 
-    </footer>
-  </body>
+    </div>
+
+  </div>
+
+  <footer class="content-footer">
+    <p>Say Hi to me via:</p>
+    <dl class="social">
+      <dt><a class="css-is-deranged" href="mailto:munozrodriguezjaqueline@gmail.com">Email</a></dt>
+      <dt><a class="css-is-deranged" href="https://www.linkedin.com/in/jaqueline">LinkedIn</a></dt>
+      <dt><a class="css-is-deranged" href="https://github.com/JaquelineMunoz">GitHub</a></dt>
+    </dl>
+
+  </footer>
+</body>
 
 </html>
