@@ -7,15 +7,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=PT+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
   rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style type="text/css">
+
+
 
     body {
       /* Typography Declarations */
       color: #222222;
       font-size: 1em;
-      font-family: 'Montserrat', sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
       line-height: 1.6;
       margin: 0;
     }
@@ -35,6 +39,7 @@
       padding: 10em 0em;
       border-top: solid 1em #f1c90f;
       justify-content: center;
+      background-color:white;
     }
 
     .header-text{
@@ -48,53 +53,75 @@
 
 
     .header-picture {
+      display: flex;
       flex: 50%;
       justify-content: center;
-      display: flex;
-    }
-
-
-    .header-intro {
-      margin: 0;
-      align-content: right;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 2em;
-      color:#f1c90f;
+      flex-direction: column;
+      margin-top: auto;
     }
 
     .header-heading {
       margin: 0;
       color: black;
-      align-content: right;
+      text-align: left;
       font-family: 'Playfair Display', serif;
       letter-spacing:2px; 
-      font-size: 1.5em;
-      margin-bottom: 10px;
+      font-size: 36px;
+      margin-bottom: 0px;
 
     }
+
 
     .header-description {
       margin: 0;
-      align-content: right;
-      text-align: right;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1em;
+      align-content: left;
+      text-align: left;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 15.5px;
       letter-spacing: -0.02em;
       line-height: 1.8;
     }
 
+
+    .header-intro {
+      padding:0px 80px;
+      align-content: left;
+      text-align: left;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1em;
+      color:#f1c90f;
+    }
 
 
     .header-quote{
-      margin: 0;
-      align-content: right;
-      text-align: right;
-      font-family: 'Montserrat', sans-serif;
-      font-style: italic;
-      font-size: 1em;
+      margin-right: 20em;
+      text-align: left;
+      font-family: 'IBM Plex Mono', monospace;
+      font-style: normal;
+      font-size: 12.5px;
       letter-spacing: -0.02em;
-      line-height: 1.8;
     }
+
+
+/* Download Resume Btn */
+.btn {
+  background-color: #c59eff;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 15.5px;
+  margin-top: auto;
+
+}
+
+.btn:hover {
+  background-color: #944dff;
+}
+
+
+
 
 
     .education-section,
@@ -133,10 +160,18 @@
   }
 
   h4 { 
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
     font-size: 1em;
     line-height: 140%;
     font-weight: lighter;
+  }
+
+  h5 { 
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: -8px;
+
   }
 
 
@@ -167,7 +202,7 @@
     padding: 20px 0;
     margin-bottom: 5px;
     text-align: center;
-    background-color: #9c63f1;
+    background-color: #c59eff;
     text-decoration: none;
 
   }
@@ -189,6 +224,7 @@ a{
   color:black;
   text-decoration:underline;
   text-decoration-color:#9c63f1;
+  background-color: #944dff;
 
 }
 }
@@ -232,82 +268,100 @@ a{
 <body>
   <header class='header'>
     <div class="header-text">
-      <p class='header-intro'>Hi I'm Jaqueline!</p>
-      <h1 class='header-heading'>Barcelona Based Experienced Communications Professional, Originally from the West of Mexico with Eligibility to Work in Spain</h1>
-      <p class="header-quote"> "I'm passionate about the continuous digital transformation in our daily live and how the employ of technology in social sciences has an extremely vital role to play".</p>
+      <h1 class='header-heading'>Experienced communications professional &
+       instructional designer.</h1>
+      <p class="header-description">Barcelona based, originally from the West of Mexico with eligibility to work in Spain</p>
+      
+      <h5>HELLO!I'M JAQUELINE.</h5>
+      <p class="header-quote"> 
+        I'm a communications professional and an instructional designer with over 4 years of trajectory in Tech companies and startups.  
+      </p>
+
+
+      <h5>WHERE TO FIND ME.</h5>
+      <dl class="header-quote"> 
+        <dt>Email: munozrodriguezjaqueline@gmail.com</dt>
+        <dt>Phone: (+34) 623 039 583</dt>
+        <dt>LinkedIn</dt>
+      </dl>
+    </p>
+  </div>
+  <div class="header-picture">
+<img src="https://imgur.com/ruHXXsy.jpg" alt="Jaqueline's portrait" width="426" height="284">
+<button class="btn"><i class="fa fa-download"></i> DOWNLOAD RESUME</button>
+  </div>
+          </div>
+                    </div>
+
+</header>
+<div class="row">
+  <div class="column" style="background-color:#white">
+    <div class="row">
+      <i class="material-icons">work_outline</i> 
+      <h2>EXPERIENCE</h2>
     </div>
-    <div class="header-picture">
-      <img src="https://i.imgur.com/0TC8m6h.jpg" alt="Jaqueline's portrait" width="300" height="300">
-    </div>
-  </header>
-  <div class="row">
-    <div class="column" style="background-color:#white">
-      <div class="row">
-        <i class="material-icons">work_outline</i> 
-        <h2>Experience</h2>
-      </div>
-      <a href="https://www.wizeline.com/">
-        <p>Academy Program Coordinator - Wizeline Company</p>
-      </a>
-      <h3>2018 - 2019</h3>
-      <p> Building and coordinating courses in Mexico, USA and Vietnam about Software Development, User Experience, Management and more to attract candidates and develop the talent of our employees.
-        <ul>
+    <a href="https://www.wizeline.com/">
+      <p>Academy Program Coordinator - Wizeline Company</p>
+    </a>
+    <h3>2018 - 2019</h3>
+    <p> Building and coordinating courses in Mexico, USA and Vietnam about Software Development, User Experience, Management and more to attract candidates and develop the talent of our employees.
+      <ul>
         <h4><li>Collaborate cross-functionally with Managers, Software Engineers, Technical Writers and Recruiters to cover staffing needs with the right talent at the right time
         </h4></li>
         <h4><li>Working together with (Data, Android, iOS and QA) Engineers to launch courses on the most popular programming languages and frameworks
         </h4></li>
         <h4><li>Creating content to promote the courses on social media platforms, keep track of the posts, and report the results on a bi-weekly basis
         </h4></li>
-        </ul>
-      </p>
+      </ul>
+    </p>
 
-      <a href="https://www.intel.es/content/www/es/es/homepage.html">
-        <p>Media Training Designer - Intel Corporation</p>
-      </a>
-      <h3> 2015 - 2018 </h3>
-        <ul>
-          <h4><li>Collaborate with customers to identify communication and training needs, propose and build solutions</h4></li>
-          <h4><li>Manage video content, capture, edit, perform quality checks and post videos to an internal web portal</h4></li>
-          <h4><li>Collaborating with the team to define and  design new functionalities in the training portal</h4></li>
-          <h4><li>Teach clients on how to record functional material for video tutorials</h4></li>
-          </ul>
-          
-        </div>
-        <div class="column" style="background-color:#white;">
+    <a href="https://www.intel.es/content/www/es/es/homepage.html">
+      <p>Media Training Designer - Intel Corporation</p>
+    </a>
+    <h3> 2015 - 2018 </h3>
+    <ul>
+      <h4><li>Collaborate with customers to identify communication and training needs, propose and build solutions</h4></li>
+      <h4><li>Manage video content, capture, edit, perform quality checks and post videos to an internal web portal</h4></li>
+      <h4><li>Collaborating with the team to define and  design new functionalities in the training portal</h4></li>
+      <h4><li>Teach clients on how to record functional material for video tutorials</h4></li>
+    </ul>
+
+  </div>
+  <div class="column" style="background-color:#white;">
 
 
-          <div class="row">
-            <i class="material-icons">school</i><h2>Education</h2>
-          </div>
-          <a href="https://www.iteso.mx/web/iteso/acerca-de-iteso-original"><p>ITESO University, Mexico</p></a>
-          <h3>2013 - 2018 </h3>
-          <p>Communications Sciences & Social Media Bachelor's Degree</p>
+    <div class="row">
+      <i class="material-icons">school</i><h2>EDUCATION</h2>
+    </div>
+    <a href="https://www.iteso.mx/web/iteso/acerca-de-iteso-original"><p>ITESO University, Mexico</p></a>
+    <h3>2013 - 2018 </h3>
+    <p>Communications Sciences & Social Media Bachelor's Degree</p>
 
-          <div class="row">
-            <i class="material-icons">design_services</i>
-            <h2>Skills</h2>
-          </div>
-          <ul>
-            <h4><li> Quick Undestanding of Complex Tools and Technologies</li></h4>
-            <h4><li> Effectively Prioritize Tasks</li></h4>
-            <h4><li>Strong Analytical Skills</li></h4>
-            <h4><li> Experience with Agile Methodology</li></h4>
-            <h4><li>Ability to Work Autonomously and within a Team</li></h4>
-          </ul>
+    <div class="row">
+      <i class="material-icons">design_services</i>
+      <h2>SKILLS</h2>
+    </div>
+    <ul>
+      <h4><li> Quick Undestanding of Complex Tools and Technologies</li></h4>
+      <h4><li> Effectively Prioritize Tasks</li></h4>
+      <h4><li>Strong Analytical Skills</li></h4>
+      <h4><li> Experience with Agile Methodology</li></h4>
+      <h4><li>Ability to Work Autonomously and within a Team</li></h4>
+    </ul>
 
-        </div>
+  </div>
 
-      </div>
+</div>
 
-      <footer class="content-footer">
-        <p>Say Hi to me via:</p>
-        <dl class="social">
-          <dt><a class="css-is-deranged" href="mailto:munozrodriguezjaqueline@gmail.com">Email</a></dt>
-          <dt><a class="css-is-deranged" href="https://www.linkedin.com/in/jaqueline">LinkedIn</a></dt>
-          <dt><a class="css-is-deranged" href="https://github.com/JaquelineMunoz">GitHub</a></dt>
-        </dl>
+<footer class="content-footer">
+  <p>Say Hi to me via:</p>
+  <dl class="social">
+    <dt><a class="css-is-deranged" href="mailto:munozrodriguezjaqueline@gmail.com">Email</a></dt>
+    <dt><a class="css-is-deranged" href="https://www.linkedin.com/in/jaqueline">LinkedIn</a></dt>
+    <dt><a class="css-is-deranged" href="https://github.com/JaquelineMunoz">GitHub</a></dt>
+  </dl>
 
-      </footer>
-    </body>
+</footer>
+</body>
 
-    </html>
+</html>
